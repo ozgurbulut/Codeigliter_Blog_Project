@@ -46,26 +46,24 @@
         padding: 20px;
     }
 </style>
-
 <center><h1>Update Your Post</h1>
     <div class="container12">
 
         <?php echo form_open_multipart(base_url().'posts/neweditpost');?>
-
-        <label for="fname">Title</label>
+        <label name="idea" id="">Title</label>
 
         <input type="text"  name="title" placeholder="">
 
 
         <label for="subject">Content</label>
         <textarea  name="content" placeholder=""></textarea>
-
+        <input type="hidden" name="formid"  value="<?php echo $records->id;?>" />
         <?php echo "<input type='submit' name='edit' value='Update' /> ";?>
+
 
         <?php echo "</form>"?>
 
 
 
-        </form>
     </div>
 </center>

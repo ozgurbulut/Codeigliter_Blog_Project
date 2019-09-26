@@ -1,10 +1,13 @@
 <?php
 class Test extends CI_Controller{
     public function index(){
-        $key = $this->encryption->create_key(16);
-        $config['encryption_key'] = '231';
-        $ciphertext = $this->encryption->encrypt('My secret message');
-        echo $this->encryption->decrypt($ciphertext);
+        $this->load->library('encryption');
+        $str = '12345';
+        $key = 'my-secret-key';
+        $encrypted = $this->encrypt->encode($str, $key);
+        var_dump($encrypted);
+        var_dump($this->encrypt->decode($encrypted, $key));
+        die();
     }
 
 

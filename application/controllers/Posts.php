@@ -88,24 +88,27 @@ class Posts extends CI_Controller
     public function neweditpost($id = '')
     {
         $newid = $id;
-        echo "id" . $id;
+        //echo "id" . $id;
         $this->load->model('Post');
 
         $data["records"] = $this->Post->getpostwithid($id);
-
+        //var_dump(($data));
         //print_r($data);
 
         $this->load->view('admin_views/AdminHeader');
         $this->load->view('admin_views/AdminEditPost', $data);
         $this->load->view('admin_views/AdminFooter');
+        if ($this->input->post('edit')) {
+            $newid = $this->input->post('formid');
+            echo "Şimdiki id =" . $newid;
+            $title = $this->input->post('title');
+            $content = $this->input->post('content');
 
 
-        $title = $this->input->post('title');
-        $content = $this->input->post('content');
+            $this->Post->updateYourPost($newid, $title, $content);
+            redirect(base_url() . "Panel");
 
-
-        $this->Post->updateYourPost($newid, $title, $content);
-
+        }
 
     }
 

@@ -2,47 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="309c2dfa-89b2-4311-bae4-d4bc2cad2d0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog_v7.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/models/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/admin_views/AdminChangePassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/admin_views/AdminEditPost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/admin_views/AdminEditView.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/showpost.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/views/sing.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Demo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Giris.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/LoginUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Member.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog_v7.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Posts.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Welcome.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/Admin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_ana_sayfa.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/HomeAdmin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_gonderi_duzenle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_gonderi_ekle.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminNewPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_gonderileri_kaldir.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_gonderilerim.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminMyPosts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/admin_panel_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminFooter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/admin_panel_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminHeader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/adminedtview.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminFreezeView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/deletemyaccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminDeleteMyAccount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/deleteposts.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminDeletePosts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/goruntule.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/Show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/message_inbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminMessageInbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/message_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminMessageNew.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/message_sendbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminMessageSendbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/ana_sayfa.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/ana_sayfa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/giris.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/AdminEditPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminEditPost.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +79,7 @@
       <workItem from="1569304475857" duration="23144000" />
       <workItem from="1569391112287" duration="14244000" />
       <workItem from="1569411659431" duration="8631000" />
+      <workItem from="1569479267738" duration="3165000" />
     </task>
     <servers />
   </component>
