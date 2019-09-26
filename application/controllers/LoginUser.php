@@ -24,10 +24,12 @@ class LoginUser extends CI_Controller{
 
         $name = $this->input->post('kadi');
         $pass = $this->input->post('sifre');
-        $data = $this->User->getUSerData($name, $pass);
+        $encode_password = base64_encode($pass);
+
+        $data = $this->User->getUSerData($name, $encode_password);
 
 
-        if($name == $data["membername"] && $pass == $data["password"]){
+        if($name == $data["membername"] && $pass == $orjinal_veri = base64_decode($data["password"])){
             $userdata = array(
                 'id' => $data["id"],
                 'username'  => $data["membername"],
@@ -47,6 +49,7 @@ class LoginUser extends CI_Controller{
     }
     public function sing(){
         $this->load->model('Post');
+
         $this->load->view('header');
         $this->load->view('sing');
         $this->load->view('footer');
@@ -59,7 +62,14 @@ class LoginUser extends CI_Controller{
             $username = $this->input->post('username');
             $password = $this->input->post('password');
             $email = $this->input->post('email');
-            $this->Post->newmembercreate($username,$password,$email);
+
+            $encode_password = base64_encode($password);
+
+
+
+
+
+            $this->Post->newmembercreate($username,$encode_password,$email);
 
         }
 

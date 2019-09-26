@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="309c2dfa-89b2-4311-bae4-d4bc2cad2d0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog_v7.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/LoginUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/LoginUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/admin_views/AdminEditPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminEditPost.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +77,7 @@
       <workItem from="1569304475857" duration="23144000" />
       <workItem from="1569391112287" duration="14244000" />
       <workItem from="1569411659431" duration="8631000" />
-      <workItem from="1569479267738" duration="3165000" />
+      <workItem from="1569479267738" duration="5963000" />
     </task>
     <servers />
   </component>

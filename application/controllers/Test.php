@@ -1,13 +1,11 @@
 <?php
 class Test extends CI_Controller{
     public function index(){
-        $this->load->library('encryption');
-        $str = '12345';
-        $key = 'my-secret-key';
-        $encrypted = $this->encrypt->encode($str, $key);
-        var_dump($encrypted);
-        var_dump($this->encrypt->decode($encrypted, $key));
-        die();
+        $x = "selam";
+        $encode_veri = base64_encode($x); // çıktısı: MTIzNDU2
+        $orjinal_veri = base64_decode($encode_veri); // çıktısı: 123456
+        echo 'Encode edilen veri:'.$encode_veri.'<br />';
+        echo 'Orjinal veri:'.$orjinal_veri;
     }
 
 

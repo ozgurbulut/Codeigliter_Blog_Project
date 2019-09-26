@@ -6,7 +6,8 @@ class Post extends CI_Model
 
     public function updateYourPost($id, $title, $content)
     {
-        $update = "UPDATE posts SET title = '$title' , content= '$content' WHERE id = $id ";
+        $updatetime =date("Y/m/d/h:i:sa");
+        $update = "UPDATE posts SET title = '$title' , content= '$content' , senddate = '$updatetime' WHERE id = $id ";
         return $this->db->query($update);
 
 /*
