@@ -1,333 +1,86 @@
-<aside id="colorlib-hero">
-    <div class="flexslider">
-        <ul class="slides">
-            <li style="background-image: url(<?php echo base_url();?>assets/images/img_bg_1.jpg);">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-pull-3 col-sm-12 col-xs-12 col-md-offset-3 slider-text">
-                            <div class="slider-text-inner">
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li style="background-image: url(<?php echo base_url();?>assets/images/img_bg_2.jpg);">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-pull-3 col-sm-12 col-xs-12 col-md-offset-3 slider-text">
-                            <div
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li style="background-image: url(<?php echo base_url();?>assets/images/img_bg_3.jpg);">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-pull-3 col-sm-12 col-xs-12 col-md-offset-3 slider-text">
-                            <div class="slider-text-inner">
+    body {
+        margin: 0;
+    }
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li style="background-image: url(<?php echo base_url();?>assets/images/img_bg_4.jpg);">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-pull-3 col-sm-12 col-xs-12 col-md-offset-3 slider-text">
-                            <div class="slider-text-inner">
+    /* Style the header */
+    .header {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-</aside>
+    /* Style the top navigation bar */
+    .topnav {
+        overflow: hidden;
+        background-color: #333;
+    }
 
+    /* Style the topnav links */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-<div id="colorlib-container">
-    <div class="container">
+    /* Change color on hover */
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
 
-        <div class="row row-pb-md">
+    /* Create three equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 15px;
+    }
 
-            <div class="col-md-4">
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
+    /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+    @media screen and (max-width:600px) {
+        .column {
+            width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
 
-                <div class="blog-entry">
-                    <?php foreach ($records as $row){?>
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-2.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#"><?php echo $row->about;?></a></span>
-                            <span class="date"><?php echo $row->senddate;?></span>
-                            <span class="pos">By <a href="#"><?php echo $row->membername;?></a></span>
-                        </p>
-                        <h2><a href="blog.html"><?php echo $row->title;?></a></h2>
-                        <P>icerik</P>
-                    </div><?php }?>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-2.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Read</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-slider">
-                        <div class="owl-carousel">
-                            <div class="item">
-                                <a href="blog.html" class="image-popup-link"><img src="<?php echo base_url();?>assets/images/blog-3.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                            </div>
-                            <div class="item">
-                                <a href="blog.html" class="image-popup-link"><img src="<?php echo base_url();?>assets/images/blog-4.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Travel</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-pb-md">
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-4.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Lifestyle</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="images/blog-5.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Events</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-6.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Events</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-pb-md">
-            <div class="col-md-8">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <div class="video colorlib-video" style="background-image: url(<?php echo base_url();?>assets/images/blog-8.jpg);">
-                            <a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-play"></i></a>
-                            <div class="overlay"></div>
-                        </div>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Watch</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Watch our video how to make website</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-7.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Events</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-pb-md">
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-9.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Events</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-10.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Events</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-11.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Events</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row row-pb-md">
-            <div class="col-md-4">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-12.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Events</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="blog-entry">
-                    <div class="blog-img">
-                        <a href="blog.html"><img src="<?php echo base_url();?>assets/images/blog-13.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-                    </div>
-                    <div class="desc">
-                        <p class="meta">
-                            <span class="cat"><a href="#">Events</a></span>
-                            <span class="date">20 March 2018</span>
-                            <span class="pos">By <a href="#">Rich</a></span>
-                        </p>
-                        <h2><a href="blog.html">Recipe for your site</a></h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <ul class="pagination">
-                    <li class="disabled"><a href="#">&laquo;</a></li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">&raquo;</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<div class="header">
+    <h1>Posts</h1>
+    <p></p>
 </div>
 
-<div id="colorlib-instagram">
-    <div class="row">
-        <div class="col-md-12 col-md-offset-0 colorlib-
-ing text-center">
-            <h2>Instagram</h2>
-        </div>
+
+<div class="row"><?php  foreach ($posts as $row){?>
+
+    <div class="column">
+        <h2><a href=<?php echo base_url()."welcome/showposts/".$row->url; ?>><?php echo "<center>".$row->title;?></a></h2>
+        <p><?php $limit=250;
+            echo "&nbsp&nbsp&nbsp&nbsp&nbsp";
+
+            if(strlen($row->content)>250){
+        for($i=0;$i<$limit;$i++){            echo $row->content[$i];}
+        echo "<br><a href=>Add Favorites</a>"; }?></p>
+        <p><?php if(strlen($row->content)<250){
+            echo $row->content;
+        }?></p>
+
     </div>
-    <div class="row">
-        <div class="instagram-entry">
-            <a href="#" class="instagram text-center" style="background-image: url(<?php echo base_url();?>assets/images/gallery-1.jpg);">
-            </a>
-            <a href="#" class="instagram text-center" style="background-image: url(<?php echo base_url();?>assets/images/gallery-2.jpg);">
-            </a>
-            <a href="#" class="instagram text-center" style="background-image: url(<?php echo base_url();?>assets/images/gallery-3.jpg);">
-            </a>
-            <a href="#" class="instagram text-center" style="background-image: url(<?php echo base_url();?>assets/images/gallery-4.jpg);">
-            </a>
-            <a href="#" class="instagram text-center" style="background-image: url(<?php echo base_url();?>assets/images/gallery-5.jpg);">
-            </a>
-            <a href="#" class="instagram text-center" style="background-image: url(<?php echo base_url();?>assets/images/gallery-6.jpg);">
-            </a>
-            <a href="#" class="instagram text-center" style="background-image: url(<?php echo base_url();?>assets/images/gallery-7.jpg);">
-            </a>
-            <a href="#" class="instagram text-center" style="background-image: url(<?php echo base_url();?>assets/images/gallery-8.jpg);">
-            </a>
-        </div>
-    </div>
+    <?php };?>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>

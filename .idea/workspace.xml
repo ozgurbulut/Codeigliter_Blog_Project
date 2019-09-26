@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="309c2dfa-89b2-4311-bae4-d4bc2cad2d0a" name="Default Changelist" comment="" />
+    <list default="true" id="309c2dfa-89b2-4311-bae4-d4bc2cad2d0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog_v7.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/admin_views/AdminChangePassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/admin_views/AdminEditPost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/admin_views/AdminEditView.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/showpost.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/sing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Demo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Giris.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/LoginUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Member.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Welcome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/Admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_ana_sayfa.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/HomeAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_gonderi_duzenle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_gonderi_ekle.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminNewPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_gonderileri_kaldir.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/a_gonderilerim.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminMyPosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/admin_panel_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminFooter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/admin_panel_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminHeader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/adminedtview.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminFreezeView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/deletemyaccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminDeleteMyAccount.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/deleteposts.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminDeletePosts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/goruntule.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/Show.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/message_inbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminMessageInbox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/message_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminMessageNew.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin_views/message_sendbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin_views/AdminMessageSendbox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/ana_sayfa.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/ana_sayfa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/giris.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/test.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -17,11 +59,21 @@
   <component name="FavoritesManager">
     <favorites_list name="htdocs" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1R5uqPg5sGCSzCiREr6Lej4cwgI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,6 +87,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="showpost.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htdocs/application/views/showpost.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.showpost.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -45,11 +107,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568969467101</updated>
-      <workItem from="1568969468402" duration="13866000" />
+      <workItem from="1568969468402" duration="16053000" />
+      <workItem from="1569219242981" duration="25207000" />
+      <workItem from="1569248588130" duration="762000" />
+      <workItem from="1569249446829" duration="1308000" />
+      <workItem from="1569304475857" duration="23144000" />
+      <workItem from="1569391112287" duration="14244000" />
+      <workItem from="1569411659431" duration="8631000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

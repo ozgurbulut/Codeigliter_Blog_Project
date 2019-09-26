@@ -1,1 +1,0 @@
-<h1>Delete My Account</h1>

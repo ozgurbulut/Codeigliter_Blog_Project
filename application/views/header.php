@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Blog</title>
@@ -66,18 +67,20 @@
                             <li class="active"><a href="<?php echo base_url();?>welcome">Home</a></li>
                             <li class="has-dropdown">
                                 <a href="<?php echo base_url();?>blog">Blog</a>
-                                <ul class="dropdown">
-                                    <li><a href="<?php echo base_url();?>single">Blog Single</a></li>
-                                    <li><a href="#">Video</a></li>
-                                    <li><a href="#">Read</a></li>
-                                    <li><a href="#">Lifestyle</a></li>
-                                </ul>
+
                             </li>
 
                             <li><a href="<?php echo base_url();?>travel">Travel</a></li>
                             <li><a href="<?php echo base_url();?>about">About</a></li>
                             <li><a href="<?php echo base_url();?>contact">Contact</a></li>
-                            <li><a href="<?php echo base_url();?>giris">Login</a></li>
+                            <li><a href="<?php echo base_url();?>LoginUser"><?php
+                                    if(!$this->session->username) {
+                                        echo "Login";
+                                    }
+                                    else{
+                                        echo $this->session->username;
+                                    }
+                                    ?></a></li>
                         </ul>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
                 <h2>Yönlendirici</h2>
                 <p>
                 <ul class="colorlib-footer-links">
-                    <li><a href="<?php echo base_url();?>welcome"><i class="icon-check"></i> Home</a></li>
+                    <li><a href="<?php echo base_url();?>Home"><i class="icon-check"></i> Home</a></li>
                     <li><a href="<?php echo base_url();?>about"><i class="icon-check"></i> About</a></li>
                     <li><a href="<?php echo base_url();?>blog"><i class="icon-check"></i> Blog</a></li>
                     <li><a href="<?php echo base_url();?>travel"><i class="icon-check"></i> Travel</a></li>

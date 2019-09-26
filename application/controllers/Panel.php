@@ -2,22 +2,22 @@
 class Panel extends CI_Controller{
     public function __construct(){
         parent::__construct();
-        $this->load->model('Admin');
+        $this->load->model('Post');
 
-        if(!$_SESSION['username']){
-            redirect(base_url().'giris');
+        if(!$this->session->username){
+            redirect(base_url().'LoginUser');
         }
     }
     public function index(){
 
-        $this->load->model('Admin');
-        $data['records'] = $this->Admin->getData();
+        $this->load->model('Post');
+        $data['records'] = $this->Post->getData();
 
 
 
-        $this->load->view('admin_views/admin_panel_view',$data);
-        $this->load->view('admin_views/a_ana_sayfa',$data);
-        $this->load->view('admin_views/admin_panel_footer');
+        $this->load->view('admin_views/AdminHeader',$data);
+        $this->load->view('admin_views/HomeAdmin',$data);
+        $this->load->view('admin_views/AdminFooter');
 
 
     }

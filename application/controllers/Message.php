@@ -2,42 +2,42 @@
 class Message extends CI_Controller{
     public function __construct(){
         parent::__construct();
-        $this->load->model('Admin');
+        $this->load->model('Post');
 
-        if(!$_SESSION['username']){
-            redirect(base_url().'giris');
+        if(!$this->session->username){
+            redirect(base_url().'login');
         }
     }
     public function index(){
 
-        $this->load->model('Admin');
-        $data['records'] = $this->Admin->getmessages();
+        $this->load->model('Post');
+        $data['records'] = $this->Post->getmessages();
 
-        $this->load->view('admin_views/admin_panel_view');
-        $this->load->view('admin_views/message_inbox',$data);
-        $this->load->view('admin_views/admin_panel_footer');
+        $this->load->view('admin_views/AdminHeader');
+        $this->load->view('admin_views/AdminMessageInbox',$data);
+        $this->load->view('admin_views/AdminFooter');
 
 
     }
 
     public function message_sendbox(){
-        $this->load->model('Admin');
-        $data['records'] = $this->Admin->getmessages();
+        $this->load->model('Post');
+        $data['records'] = $this->Post->getmessages();
 
-        $this->load->view('admin_views/admin_panel_view');
-        $this->load->view('admin_views/message_sendbox',$data,$_SESSION);
-        $this->load->view('admin_views/admin_panel_footer');
+        $this->load->view('admin_views/AdminHeader');
+        $this->load->view('admin_views/AdminMessageSendbox',$data,$this->session->username);
+        $this->load->view('admin_views/AdminFooter');
 
     }
     public function message_new(){
-        $this->load->model('Admin');
-        $data['records'] = $this->Admin->getmembers();
+        $this->load->model('Post');
+        $data['records'] = $this->Post->getmembers();
 
 
 
-        $this->load->view('admin_views/admin_panel_view');
-        $this->load->view('admin_views/message_new',$data);
-        $this->load->view('admin_views/admin_panel_footer');
+        $this->load->view('admin_views/AdminHeader');
+        $this->load->view('admin_views/AdminMessageNew',$data);
+        $this->load->view('admin_views/AdminFooter');
 
 
         if($this->input->post('save'))
@@ -45,13 +45,13 @@ class Message extends CI_Controller{
 
             $title = $this->input->post('title');
             $content = $this->input->post('subject');
-            $sender = $_SESSION['username'];
+            $sender =$this->session->username;
             $rec = $this->input->post('rec');
             $date = rand(1,20);
-            $this->Admin->saverecords($title,$content,$sender,$rec,$date);
+            $this->Post->saverecords($title,$content,$sender,$rec,$date);
 
         }
-        echo $_SESSION['username'];
+        echo $this->session->username;
     }
 
 

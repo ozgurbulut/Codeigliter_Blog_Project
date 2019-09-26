@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 breadcrumbs text-center">
-                    <h2>Hakkımda</h2>
-                    <p><span><a href="index.html">Home</a></span> / <span>Hakkımda</span></p>
+                    <h2>About</h2>
+                    <p><span><a href="index.html">Home</a></span> / <span>About</span></p>
                 </div>
             </div>
         </div>

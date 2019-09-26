@@ -1,17 +1,10 @@
 <?php
 class Test extends CI_Controller{
     public function index(){
-
-
-        $this->load->library('session');
-        $this->load->model('User');
-
-        $data['records'] = $this->User->getData();
-        $this->load->view('test');
-        //print_r(getdate('year/month/day');
-
-
-
+        $key = $this->encryption->create_key(16);
+        $config['encryption_key'] = '231';
+        $ciphertext = $this->encryption->encrypt('My secret message');
+        echo $this->encryption->decrypt($ciphertext);
     }
 
 
