@@ -1,6 +1,4 @@
-# Codeigliter_Blog_Project
-RewriteEngine On
-#RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule (.*) index.php/$1
+# Codeigniter_Blog_Project
+
+Codeigniter Framework ü kullanılarak hazırlanılmış blog web sitesi.
+Php 7.2
